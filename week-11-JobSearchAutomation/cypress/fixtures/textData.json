@@ -1,0 +1,12 @@
+{
+    "searchInput": "QA Test Automation Engineer",
+    "raceInput": "White (Not Hispanic or Latino)",
+    "sexInput": "Male",
+    "veteranStatus": "I am not a protected veteran",
+    "disabilityStatus": "No, I not have a disability or a history/record of having a disability",
+    "resumeStatus": "Yes",
+    "resumePath": "cypress/fixtures/Simple CV.docx",
+    "applyElement": ".maxim_jobs_apply_button",
+    "applyText": "Apply Now",
+    "nameElement": ".name_first.gform-grid-col"
+}
