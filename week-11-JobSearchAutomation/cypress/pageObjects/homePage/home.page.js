@@ -1,9 +1,6 @@
-class homePage{
+class HomePage{
     get searchFilled(){
        return cy.get('[class="facetwp-search"]')
     }
-    get applyButton(){
-        return cy.contains('Apply Now')
-    }
 }
-export default new homePage();
+export default new HomePage();

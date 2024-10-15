@@ -19,7 +19,7 @@ describe("Job serch QA Engineer", () => {
   it("Search for QA Jobs", () => {
     homePage.searchFilled.type(textData.searchInput);
     cy.waitForElement(textData.applyElement, textData.applyText);
-    homePage.applyButton.click();
+    cy.contains('Apply Now').click();
     cy.waitForElement(textData.nameElement);
     applyPage.nameFilled.type(name);
     applyPage.lastNameFilled.type(lastName);

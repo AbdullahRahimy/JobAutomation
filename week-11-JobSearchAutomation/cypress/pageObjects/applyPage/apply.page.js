@@ -1,4 +1,4 @@
-class applyPage{
+class ApplyPage{
     get nameFilled(){
         return cy.get('[placeholder="First Name *"]')
     }
@@ -31,4 +31,4 @@ class applyPage{
         return cy.get('[id="input_2_5"]')
     }
 }
-export default new applyPage();
+export default new ApplyPage();
